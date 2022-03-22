@@ -74,7 +74,7 @@ public class Employee {
 			allValues.put("empId","EMP100");
 			allValues.put("empName","Harsh");
 			allValues.put("empDept", "IT");
-			allValues.put("empSalary",120000);
+			allValues.put("empSalary",12000.0);
 			
 			Employee myEmployee = new Employee(allValues);
 			List<Double> resultList = (List<Double>)myEmployee.calculate();
